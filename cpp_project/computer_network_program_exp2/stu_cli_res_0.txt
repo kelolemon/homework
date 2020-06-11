@@ -1,0 +1,7 @@
+[cli](4912) child process 0 is created!
+[cli](4912) server[127.0.0.1:11223] is connected!
+[echo_rep](4912) asdlkf
+[echo_rep](4912) aslfklaw
+[echo_rep](4912) r13
+[cil](4912) connfd is closed!
+[cli](4912) parent process is going to exit!

@@ -1,0 +1,4 @@
+child process is created!
+[srv](4916) res file rename done!
+[srv](4916) connfd is closed!
+[srv](4916) child process is going to exit!

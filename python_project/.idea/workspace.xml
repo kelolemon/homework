@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5faf4543-41b5-4eea-9482-46b34cb9240d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/TCP_client" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/TCP_server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/UDP_client" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/UDP_server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Computer_Network_task1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Computer_Network_task1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Computer_Network_task1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Computer_Network_task1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Computer_Network_task1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Computer_Network_task1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Computer_Network_task1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Computer_Network_task1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Computer_Network_task1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Computer_Network_task1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/Computer_Network_task1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/Computer_Network_task1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_project/Computer_Network_task1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python_project$script.coverage" NAME="script Coverage Results" MODIFIED="1583394211366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_project$lt85.coverage" NAME="lt85 Coverage Results" MODIFIED="1583237251947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZeoObZOEqgtOWxz19j50txSqTP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.script">
+    <configuration name="lt85" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lt85.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.script" />
+        <item itemvalue="Python.lt85" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5faf4543-41b5-4eea-9482-46b34cb9240d" name="Default Changelist" comment="" />
+      <created>1583234902177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583234902177</updated>
+      <workItem from="1583234903387" duration="11000" />
+      <workItem from="1583234960801" duration="21000" />
+      <workItem from="1583235033416" duration="18000" />
+      <workItem from="1583235185587" duration="5287000" />
+      <workItem from="1583391941176" duration="567000" />
+      <workItem from="1583393961405" duration="2374000" />
+      <workItem from="1585208894862" duration="15000" />
+      <workItem from="1585208935784" duration="53000" />
+      <workItem from="1587970431375" duration="4250000" />
+      <workItem from="1589547723687" duration="885000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="517" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1587970431825">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="517" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587970431825" />
+  </component>
+</project>

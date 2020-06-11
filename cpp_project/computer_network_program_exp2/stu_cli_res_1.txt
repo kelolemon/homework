@@ -1,0 +1,4 @@
+[cli](4913) child process 1 is created!
+[cli](4913) server[127.0.0.1:11223] is connected!
+[cil](4913) connfd is closed!
+[cli](4913) child process is going to exit!

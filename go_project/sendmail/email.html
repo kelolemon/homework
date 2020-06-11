@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task list</title>
+</head>
+<body>
+<center>
+<table id="task table">
+    <tr>
+        <th>task id</th>
+        <th>task content</th>
+    </tr>
+</table>
+</center>
+<script>
+    window.onload = function () {
+        function readTextFile(file, callback) {
+            const rawFile = new XMLHttpRequest();
+            rawFile.overrideMimeType("application/json");
+            rawFile.open("GET", file, true);
+            rawFile.onreadystatechange = function() {
+                if (rawFile.readyState === 4 && rawFile.status === 200) {
+                    callback(rawFile.responseText);
+                }
+            }
+            rawFile.send(null);
+        }
+        readTextFile("./task.json", function(text){
+            const data = JSON.parse(text);
+            const table = document.getElementById('task table');
+            for (let i = 0; i < data['kelo']['tot']; i++) {
+                const row = table.insertRow(table.rows.length);
+                const c1 = row.insertCell(0);
+                c1.innerHTML = (i + 1).toString();
+                const c2 = row.insertCell(1);
+                c2.innerHTML = data['kelo']['list'][i];
+            }
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 child process is created!
-[echo_rqt](9870) heelo
-[echo_rqt](9870) 
-[srv](9870) res file rename done!
-[srv](9870) connfd is closed!
-[srv](9870) child process is going to exit!
+[echo_rqt](15969) heelo
+[echo_rqt](15969) 
+[srv](15969) res file rename done!
+[srv](15969) connfd is closed!
+[srv](15969) child process is going to exit!

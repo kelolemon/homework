@@ -1,7 +1,7 @@
 child process is created!
-[echo_rqt](9868) asdlkf
-[echo_rqt](9868) aslfklaw
-[echo_rqt](9868) r13
-[srv](9868) res file rename done!
-[srv](9868) connfd is closed!
-[srv](9868) child process is going to exit!
+[echo_rqt](15966) asdlkf
+[echo_rqt](15966) aslfklaw
+[echo_rqt](15966) r13
+[srv](15966) res file rename done!
+[srv](15966) connfd is closed!
+[srv](15966) child process is going to exit!

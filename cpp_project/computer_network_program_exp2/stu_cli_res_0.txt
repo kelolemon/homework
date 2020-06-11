@@ -1,7 +1,7 @@
-[cli](9865) child process 0 is created!
-[cli](9865) server[127.0.0.1:10808] is connected!
-[echo_rep](9865) asdlkf
-[echo_rep](9865) aslfklaw
-[echo_rep](9865) r13
-[cil](9865) connfd is closed!
-[cli](9865) parent process is going to exit!
+[cli](15963) child process 0 is created!
+[cli](15963) server[127.0.0.1:10808] is connected!
+[echo_rep](15963) asdlkf
+[echo_rep](15963) aslfklaw
+[echo_rep](15963) r13
+[cil](15963) connfd is closed!
+[cli](15963) parent process is going to exit!

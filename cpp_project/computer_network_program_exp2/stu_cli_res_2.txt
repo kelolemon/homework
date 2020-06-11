@@ -1,6 +1,6 @@
-[cli](4914) child process 2 is created!
-[cli](4914) server[127.0.0.1:11223] is connected!
-[echo_rep](4914) heelo
-[echo_rep](4914) 
-[cil](4914) connfd is closed!
-[cli](4914) child process is going to exit!
+[cli](9867) child process 2 is created!
+[cli](9867) server[127.0.0.1:10808] is connected!
+[echo_rep](9867) heelo
+[echo_rep](9867) 
+[cil](9867) connfd is closed!
+[cli](9867) child process is going to exit!

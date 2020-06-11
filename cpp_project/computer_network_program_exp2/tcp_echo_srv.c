@@ -203,6 +203,8 @@ void tcp_server(char *addr, char *port) {
             fclose(child_file);
             fprintf(stdout, "[srv](%d) %s is closed!\n", getpid(), newname);
             close(ClientSocket);
+            close(ServerSocket);
+            fclose(input);
             exit(0);
         } else {
             waitpid(pid, NULL, 0);

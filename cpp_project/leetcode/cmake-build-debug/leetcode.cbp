@@ -44,13 +44,12 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/Cellar/gcc/9.3.0_1/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
-					<Add directory="/usr/local/Cellar/gcc/9.3.0_1/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
-					<Add directory="/usr/local/Cellar/gcc/9.3.0_1/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/9.3.0_1/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.3.0_1/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode"/>
@@ -66,13 +65,12 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/Cellar/gcc/9.3.0_1/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0"/>
-					<Add directory="/usr/local/Cellar/gcc/9.3.0_1/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/x86_64-apple-darwin19"/>
-					<Add directory="/usr/local/Cellar/gcc/9.3.0_1/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/../../../../../../include/c++/9.3.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/9.3.0_1/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.3.0_1/lib/gcc/9/gcc/x86_64-apple-darwin19/9.3.0/include-fixed"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode/fast"/>
@@ -82,6 +80,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt123.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt124.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt125.cpp">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/main.cpp">
 			<Option target="leetcode"/>
 		</Unit>

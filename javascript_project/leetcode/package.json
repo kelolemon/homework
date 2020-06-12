@@ -1,0 +1,14 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.0",
+    "body-parser": "^1.19.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "silly-datetime": "^0.1.2",
+    "socks5-https-client": "^1.2.1"
+  },
+  "devDependencies": {
+    "bluebird": "^3.7.2"
+  }
+}

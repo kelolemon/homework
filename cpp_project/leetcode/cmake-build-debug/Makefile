@@ -123,6 +123,87 @@ leetcode/fast:
 	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
+lt123.o: lt123.cpp.o
+
+.PHONY : lt123.o
+
+# target to build an object file
+lt123.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt123.cpp.o
+.PHONY : lt123.cpp.o
+
+lt123.i: lt123.cpp.i
+
+.PHONY : lt123.i
+
+# target to preprocess a source file
+lt123.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt123.cpp.i
+.PHONY : lt123.cpp.i
+
+lt123.s: lt123.cpp.s
+
+.PHONY : lt123.s
+
+# target to generate assembly for a file
+lt123.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt123.cpp.s
+.PHONY : lt123.cpp.s
+
+lt124.o: lt124.cpp.o
+
+.PHONY : lt124.o
+
+# target to build an object file
+lt124.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt124.cpp.o
+.PHONY : lt124.cpp.o
+
+lt124.i: lt124.cpp.i
+
+.PHONY : lt124.i
+
+# target to preprocess a source file
+lt124.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt124.cpp.i
+.PHONY : lt124.cpp.i
+
+lt124.s: lt124.cpp.s
+
+.PHONY : lt124.s
+
+# target to generate assembly for a file
+lt124.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt124.cpp.s
+.PHONY : lt124.cpp.s
+
+lt125.o: lt125.cpp.o
+
+.PHONY : lt125.o
+
+# target to build an object file
+lt125.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt125.cpp.o
+.PHONY : lt125.cpp.o
+
+lt125.i: lt125.cpp.i
+
+.PHONY : lt125.i
+
+# target to preprocess a source file
+lt125.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt125.cpp.i
+.PHONY : lt125.cpp.i
+
+lt125.s: lt125.cpp.s
+
+.PHONY : lt125.s
+
+# target to generate assembly for a file
+lt125.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt125.cpp.s
+.PHONY : lt125.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode"
+	@echo "... lt123.o"
+	@echo "... lt123.i"
+	@echo "... lt123.s"
+	@echo "... lt124.o"
+	@echo "... lt124.i"
+	@echo "... lt124.s"
+	@echo "... lt125.o"
+	@echo "... lt125.i"
+	@echo "... lt125.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

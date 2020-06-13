@@ -109,12 +109,68 @@ CMakeFiles/leetcode.dir/lt125.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/lt125.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelo/kelo/cpp_project/leetcode/lt125.cpp -o CMakeFiles/leetcode.dir/lt125.cpp.s
 
+CMakeFiles/leetcode.dir/830.cpp.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/830.cpp.o: ../830.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/leetcode.dir/830.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode.dir/830.cpp.o -c /Users/kelo/kelo/cpp_project/leetcode/830.cpp
+
+CMakeFiles/leetcode.dir/830.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/830.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelo/kelo/cpp_project/leetcode/830.cpp > CMakeFiles/leetcode.dir/830.cpp.i
+
+CMakeFiles/leetcode.dir/830.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/830.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelo/kelo/cpp_project/leetcode/830.cpp -o CMakeFiles/leetcode.dir/830.cpp.s
+
+CMakeFiles/leetcode.dir/lt136.cpp.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/lt136.cpp.o: ../lt136.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/leetcode.dir/lt136.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode.dir/lt136.cpp.o -c /Users/kelo/kelo/cpp_project/leetcode/lt136.cpp
+
+CMakeFiles/leetcode.dir/lt136.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/lt136.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelo/kelo/cpp_project/leetcode/lt136.cpp > CMakeFiles/leetcode.dir/lt136.cpp.i
+
+CMakeFiles/leetcode.dir/lt136.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/lt136.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelo/kelo/cpp_project/leetcode/lt136.cpp -o CMakeFiles/leetcode.dir/lt136.cpp.s
+
+CMakeFiles/leetcode.dir/lt127.cpp.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/lt127.cpp.o: ../lt127.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/leetcode.dir/lt127.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode.dir/lt127.cpp.o -c /Users/kelo/kelo/cpp_project/leetcode/lt127.cpp
+
+CMakeFiles/leetcode.dir/lt127.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/lt127.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelo/kelo/cpp_project/leetcode/lt127.cpp > CMakeFiles/leetcode.dir/lt127.cpp.i
+
+CMakeFiles/leetcode.dir/lt127.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/lt127.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelo/kelo/cpp_project/leetcode/lt127.cpp -o CMakeFiles/leetcode.dir/lt127.cpp.s
+
+CMakeFiles/leetcode.dir/lt129.cpp.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/lt129.cpp.o: ../lt129.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/leetcode.dir/lt129.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leetcode.dir/lt129.cpp.o -c /Users/kelo/kelo/cpp_project/leetcode/lt129.cpp
+
+CMakeFiles/leetcode.dir/lt129.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/lt129.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kelo/kelo/cpp_project/leetcode/lt129.cpp > CMakeFiles/leetcode.dir/lt129.cpp.i
+
+CMakeFiles/leetcode.dir/lt129.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/lt129.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kelo/kelo/cpp_project/leetcode/lt129.cpp -o CMakeFiles/leetcode.dir/lt129.cpp.s
+
 # Object files for target leetcode
 leetcode_OBJECTS = \
 "CMakeFiles/leetcode.dir/main.cpp.o" \
 "CMakeFiles/leetcode.dir/lt123.cpp.o" \
 "CMakeFiles/leetcode.dir/lt124.cpp.o" \
-"CMakeFiles/leetcode.dir/lt125.cpp.o"
+"CMakeFiles/leetcode.dir/lt125.cpp.o" \
+"CMakeFiles/leetcode.dir/830.cpp.o" \
+"CMakeFiles/leetcode.dir/lt136.cpp.o" \
+"CMakeFiles/leetcode.dir/lt127.cpp.o" \
+"CMakeFiles/leetcode.dir/lt129.cpp.o"
 
 # External object files for target leetcode
 leetcode_EXTERNAL_OBJECTS =
@@ -123,9 +179,13 @@ leetcode: CMakeFiles/leetcode.dir/main.cpp.o
 leetcode: CMakeFiles/leetcode.dir/lt123.cpp.o
 leetcode: CMakeFiles/leetcode.dir/lt124.cpp.o
 leetcode: CMakeFiles/leetcode.dir/lt125.cpp.o
+leetcode: CMakeFiles/leetcode.dir/830.cpp.o
+leetcode: CMakeFiles/leetcode.dir/lt136.cpp.o
+leetcode: CMakeFiles/leetcode.dir/lt127.cpp.o
+leetcode: CMakeFiles/leetcode.dir/lt129.cpp.o
 leetcode: CMakeFiles/leetcode.dir/build.make
 leetcode: CMakeFiles/leetcode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable leetcode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable leetcode"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/leetcode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

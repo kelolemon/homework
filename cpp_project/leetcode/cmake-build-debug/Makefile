@@ -123,6 +123,33 @@ leetcode/fast:
 	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
+830.o: 830.cpp.o
+
+.PHONY : 830.o
+
+# target to build an object file
+830.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/830.cpp.o
+.PHONY : 830.cpp.o
+
+830.i: 830.cpp.i
+
+.PHONY : 830.i
+
+# target to preprocess a source file
+830.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/830.cpp.i
+.PHONY : 830.cpp.i
+
+830.s: 830.cpp.s
+
+.PHONY : 830.s
+
+# target to generate assembly for a file
+830.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/830.cpp.s
+.PHONY : 830.cpp.s
+
 lt123.o: lt123.cpp.o
 
 .PHONY : lt123.o
@@ -204,6 +231,87 @@ lt125.cpp.s:
 	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt125.cpp.s
 .PHONY : lt125.cpp.s
 
+lt127.o: lt127.cpp.o
+
+.PHONY : lt127.o
+
+# target to build an object file
+lt127.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt127.cpp.o
+.PHONY : lt127.cpp.o
+
+lt127.i: lt127.cpp.i
+
+.PHONY : lt127.i
+
+# target to preprocess a source file
+lt127.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt127.cpp.i
+.PHONY : lt127.cpp.i
+
+lt127.s: lt127.cpp.s
+
+.PHONY : lt127.s
+
+# target to generate assembly for a file
+lt127.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt127.cpp.s
+.PHONY : lt127.cpp.s
+
+lt129.o: lt129.cpp.o
+
+.PHONY : lt129.o
+
+# target to build an object file
+lt129.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt129.cpp.o
+.PHONY : lt129.cpp.o
+
+lt129.i: lt129.cpp.i
+
+.PHONY : lt129.i
+
+# target to preprocess a source file
+lt129.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt129.cpp.i
+.PHONY : lt129.cpp.i
+
+lt129.s: lt129.cpp.s
+
+.PHONY : lt129.s
+
+# target to generate assembly for a file
+lt129.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt129.cpp.s
+.PHONY : lt129.cpp.s
+
+lt136.o: lt136.cpp.o
+
+.PHONY : lt136.o
+
+# target to build an object file
+lt136.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt136.cpp.o
+.PHONY : lt136.cpp.o
+
+lt136.i: lt136.cpp.i
+
+.PHONY : lt136.i
+
+# target to preprocess a source file
+lt136.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt136.cpp.i
+.PHONY : lt136.cpp.i
+
+lt136.s: lt136.cpp.s
+
+.PHONY : lt136.s
+
+# target to generate assembly for a file
+lt136.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt136.cpp.s
+.PHONY : lt136.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -240,6 +348,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode"
+	@echo "... 830.o"
+	@echo "... 830.i"
+	@echo "... 830.s"
 	@echo "... lt123.o"
 	@echo "... lt123.i"
 	@echo "... lt123.s"
@@ -249,6 +360,15 @@ help:
 	@echo "... lt125.o"
 	@echo "... lt125.i"
 	@echo "... lt125.s"
+	@echo "... lt127.o"
+	@echo "... lt127.i"
+	@echo "... lt127.s"
+	@echo "... lt129.o"
+	@echo "... lt129.i"
+	@echo "... lt129.s"
+	@echo "... lt136.o"
+	@echo "... lt136.i"
+	@echo "... lt136.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

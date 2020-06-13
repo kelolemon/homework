@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/830.cpp">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt123.cpp">
 			<Option target="leetcode"/>
 		</Unit>
@@ -87,6 +90,15 @@
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt125.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt127.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt129.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt136.cpp">
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/main.cpp">

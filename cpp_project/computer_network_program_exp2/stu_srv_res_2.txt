@@ -1,7 +1,0 @@
-child process is created!
-[srv](22758) listenfd is closed!
-[echo_rqt](22758) heelo
-[echo_rqt](22758) 
-[srv](22758) res file rename done!
-[srv](22758) connfd is closed!
-[srv](22758) child process is going to exit!

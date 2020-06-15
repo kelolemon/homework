@@ -1,4 +1,0 @@
-[cli](22753) child process 1 is created!
-[cli](22753) server[127.0.0.1:10808] is connected!
-[cil](22753) connfd is closed!
-[cli](22753) child process is going to exit!

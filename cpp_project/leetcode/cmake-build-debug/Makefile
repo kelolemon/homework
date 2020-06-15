@@ -312,6 +312,33 @@ lt136.cpp.s:
 	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt136.cpp.s
 .PHONY : lt136.cpp.s
 
+lt150.o: lt150.cpp.o
+
+.PHONY : lt150.o
+
+# target to build an object file
+lt150.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt150.cpp.o
+.PHONY : lt150.cpp.o
+
+lt150.i: lt150.cpp.i
+
+.PHONY : lt150.i
+
+# target to preprocess a source file
+lt150.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt150.cpp.i
+.PHONY : lt150.cpp.i
+
+lt150.s: lt150.cpp.s
+
+.PHONY : lt150.s
+
+# target to generate assembly for a file
+lt150.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt150.cpp.s
+.PHONY : lt150.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -369,6 +396,9 @@ help:
 	@echo "... lt136.o"
 	@echo "... lt136.i"
 	@echo "... lt136.s"
+	@echo "... lt150.o"
+	@echo "... lt150.i"
+	@echo "... lt150.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

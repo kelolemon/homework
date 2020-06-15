@@ -60,41 +60,41 @@ include CMakeFiles/computer_network_program_exp1.dir/flags.make
 CMakeFiles/computer_network_program_exp1.dir/main.c.o: CMakeFiles/computer_network_program_exp1.dir/flags.make
 CMakeFiles/computer_network_program_exp1.dir/main.c.o: ../main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp_project/computer_network_program_exp2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/computer_network_program_exp1.dir/main.c.o"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/computer_network_program_exp1.dir/main.c.o   -c /Users/kelo/kelo/cpp_project/computer_network_program_exp2/main.c
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/computer_network_program_exp1.dir/main.c.o   -c /Users/kelo/kelo/cpp_project/computer_network_program_exp2/main.c
 
 CMakeFiles/computer_network_program_exp1.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/computer_network_program_exp1.dir/main.c.i"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kelo/kelo/cpp_project/computer_network_program_exp2/main.c > CMakeFiles/computer_network_program_exp1.dir/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kelo/kelo/cpp_project/computer_network_program_exp2/main.c > CMakeFiles/computer_network_program_exp1.dir/main.c.i
 
 CMakeFiles/computer_network_program_exp1.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/computer_network_program_exp1.dir/main.c.s"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kelo/kelo/cpp_project/computer_network_program_exp2/main.c -o CMakeFiles/computer_network_program_exp1.dir/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kelo/kelo/cpp_project/computer_network_program_exp2/main.c -o CMakeFiles/computer_network_program_exp1.dir/main.c.s
 
 CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.o: CMakeFiles/computer_network_program_exp1.dir/flags.make
 CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.o: ../tcp_echo_srv.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp_project/computer_network_program_exp2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.o"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.o   -c /Users/kelo/kelo/cpp_project/computer_network_program_exp2/tcp_echo_srv.c
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.o   -c /Users/kelo/kelo/cpp_project/computer_network_program_exp2/tcp_echo_srv.c
 
 CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.i"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kelo/kelo/cpp_project/computer_network_program_exp2/tcp_echo_srv.c > CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kelo/kelo/cpp_project/computer_network_program_exp2/tcp_echo_srv.c > CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.i
 
 CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.s"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kelo/kelo/cpp_project/computer_network_program_exp2/tcp_echo_srv.c -o CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kelo/kelo/cpp_project/computer_network_program_exp2/tcp_echo_srv.c -o CMakeFiles/computer_network_program_exp1.dir/tcp_echo_srv.c.s
 
 CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.o: CMakeFiles/computer_network_program_exp1.dir/flags.make
 CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.o: ../tcp_echo_cli.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kelo/kelo/cpp_project/computer_network_program_exp2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.o"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.o   -c /Users/kelo/kelo/cpp_project/computer_network_program_exp2/tcp_echo_cli.c
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.o   -c /Users/kelo/kelo/cpp_project/computer_network_program_exp2/tcp_echo_cli.c
 
 CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.i"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kelo/kelo/cpp_project/computer_network_program_exp2/tcp_echo_cli.c > CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kelo/kelo/cpp_project/computer_network_program_exp2/tcp_echo_cli.c > CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.i
 
 CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.s"
-	/usr/local/Cellar/gcc/9.3.0_1/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kelo/kelo/cpp_project/computer_network_program_exp2/tcp_echo_cli.c -o CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kelo/kelo/cpp_project/computer_network_program_exp2/tcp_echo_cli.c -o CMakeFiles/computer_network_program_exp1.dir/tcp_echo_cli.c.s
 
 # Object files for target computer_network_program_exp1
 computer_network_program_exp1_OBJECTS = \

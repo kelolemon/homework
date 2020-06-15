@@ -23,6 +23,7 @@ int echo_rep(int ClientSocket, FILE* output) {
     for (;;) {
         // read the pin
         res = read(ClientSocket, &pin, 4);
+        pin = ntohl(pin);
         if (f_pin == -1) f_pin = pin;
         if (res < 0) {
             printf("[srv] read len return %d and errno is %d\n", res, errno);
@@ -34,11 +35,12 @@ int echo_rep(int ClientSocket, FILE* output) {
         if (res == 0) return f_pin;
         // read the data len
         res = read(ClientSocket, &len, 4);
+        len = ntohl(len);
         if (res < 0) {
             printf("[srv] read len return %d and errno is %d\n", res, errno);
             if (errno == EINTR){
                 if(sig_type == SIGINT) return f_pin;
-                continue;
+                return f_pin;
             }
         }
         if (res == 0) return f_pin;
@@ -66,14 +68,17 @@ int echo_rep(int ClientSocket, FILE* output) {
         }
         // read data end.
         fprintf(output, "[echo_rqt](%d) %s\n", getpid(), buf);
+        fflush(output);
         // write pin
+        pin = htonl(pin);
         res = write(ClientSocket, &pin, 4);
         if (res < 0) {
             puts("write error!");
             return f_pin;
         }
         // write data len
-        res = write(ClientSocket, &len, 4);
+        int n_len = htonl(len);
+        res = write(ClientSocket, &n_len, 4);
         if (res < 0) {
             puts("write error!");
             return f_pin;
@@ -110,6 +115,7 @@ void sig_int(int signal) {
 void sig_pipe(int signal) {
     sig_type = signal;
     printf("[srv](%d) SIGPIPE is coming!\n", getpid());
+    sleep(10000);
 }
 
 void sig_child(int signal) {
@@ -170,6 +176,7 @@ void tcp_server(char *addr, char *port) {
     srv_addr.sin_port = htons(strtol(port, &ret, 10));
     socklen_t addr_size = sizeof(struct sockaddr_in);
     fprintf(input, "[srv](%d) server[%s:%s] is initializing!\n", getpid(), addr, port);
+    fflush(input);
     res = bind(ServerSocket, (struct sockaddr*) &srv_addr, sizeof(srv_addr));
     if (res < 0) {
         puts("Bind error!");
@@ -186,6 +193,7 @@ void tcp_server(char *addr, char *port) {
         if (ClientSocket < 0) break;
         inet_ntop(AF_INET, (void *) &cli_addr.sin_addr, ipv4_cli_addr, 16);
         fprintf(input, "[srv](%d) client[%s:%d] is accepted!\n", getpid(), ipv4_cli_addr, ntohs(cli_addr.sin_port));
+        fflush(input);
         pid_t pid;
         if ((pid = fork()) == 0) {
             char filename[30];
@@ -193,17 +201,22 @@ void tcp_server(char *addr, char *port) {
             FILE* child_file = fopen(filename, "w");
             fprintf(stdout, "[srv](%d) %s is opened!\n", getpid(), filename);
             fprintf(child_file, "child process is created!\n");
+            fflush(input);
+            close(ServerSocket);
+            fprintf(child_file, "[srv](%d) listenfd is closed!\n", getpid());
             int pin = echo_rep(ClientSocket, child_file);
             char newname[20];
             sprintf(newname, "stu_srv_res_%d.txt", pin);
             rename(filename, newname);
             fprintf(child_file, "[srv](%d) res file rename done!\n", getpid());
+            fflush(child_file);
             fprintf(child_file, "[srv](%d) connfd is closed!\n", getpid());
+            fflush(child_file);
             fprintf(child_file, "[srv](%d) child process is going to exit!\n", getpid());
+            fflush(child_file);
             fclose(child_file);
             fprintf(stdout, "[srv](%d) %s is closed!\n", getpid(), newname);
             close(ClientSocket);
-            close(ServerSocket);
             fclose(input);
             exit(0);
         } else {
@@ -213,7 +226,9 @@ void tcp_server(char *addr, char *port) {
     }
     close(ServerSocket);
     fprintf(input, "[srv](%d) listenfd is closed!\n", getpid());
+    fflush(input);
     fprintf(input, "[srv](%d) server is exiting\n", getpid());
+    fflush(input);
     fclose(input);
     fprintf(stdout, "[srv](%d) stu_srv_res_p.txt is closed!\n", getpid());
 }

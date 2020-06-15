@@ -1,7 +1,10 @@
-[cli](15963) child process 0 is created!
-[cli](15963) server[127.0.0.1:10808] is connected!
-[echo_rep](15963) asdlkf
-[echo_rep](15963) aslfklaw
-[echo_rep](15963) r13
-[cil](15963) connfd is closed!
-[cli](15963) parent process is going to exit!
+[cli](22752) child process 0 is created!
+[cli](22752) server[127.0.0.1:10808] is connected!
+[echo_rep](22752) 4m Aj8 o 
+[echo_rep](22752) oiMYl8v msix6 IV xjKgt78 FaE0 1 dY1w r6iorE0 Xg6 2 
+[echo_rep](22752) dsPtWxtm 
+[echo_rep](22752) rM qXokcCz B8OG6wC 7Um06x7 PyE I5RD6H9 q6dS15 7dG3 
+[echo_rep](22752) DpsK 5TN 6zK1pNDJ cVkN 8F 32oVm07g u3nW 
+[echo_rep](22752) 220j8 y2csU7Lj x uZHCv 9Z 
+[cil](22752) connfd is closed!
+[cli](22752) parent process is going to exit!

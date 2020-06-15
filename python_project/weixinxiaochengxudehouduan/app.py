@@ -233,12 +233,25 @@ def love():
 @app.route('/publish', methods=['POST'])
 def publish():
     json_data = request.get_json()
-    print(json_data)
     user_id = json_data['userid']
     good_info = json_data['goodinfo']
     user_class = User(user_id=user_id)
     user_class.TOT_LIST.insert(0, good_info)
     user_class.PUB_LIST.append(good_info)
+    data_json = {
+        'success': 1
+    }
+    return Response(json.dumps(data_json), mimetype='application/json')
+
+
+@app.route('/delete', methods=['POST'])
+def delete():
+    json_data = request.get_json()
+    good_info = json_data['goodinfo']
+    user_id = json_data['userid']
+    user_class = User(user_id=user_id)
+    user_class.TOT_LIST.remove(good_info)
+    user_class.PUB_LIST.remove(good_info)
     data_json = {
         'success': 1
     }

@@ -1,2 +1,0 @@
-child process is created!
-[echo_rqt](184049664) aa

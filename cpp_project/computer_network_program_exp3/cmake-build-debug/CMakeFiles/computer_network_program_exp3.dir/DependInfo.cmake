@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/kelo/kelo/cpp_project/computer_network_program_exp3/tcp_echo_cli.c" "/Users/kelo/kelo/cpp_project/computer_network_program_exp3/cmake-build-debug/CMakeFiles/computer_network_program_exp3.dir/tcp_echo_cli.c.o"
   "/Users/kelo/kelo/cpp_project/computer_network_program_exp3/tcp_echo_srv.c" "/Users/kelo/kelo/cpp_project/computer_network_program_exp3/cmake-build-debug/CMakeFiles/computer_network_program_exp3.dir/tcp_echo_srv.c.o"
   "/Users/kelo/kelo/cpp_project/computer_network_program_exp3/test.c" "/Users/kelo/kelo/cpp_project/computer_network_program_exp3/cmake-build-debug/CMakeFiles/computer_network_program_exp3.dir/test.c.o"
   )

@@ -1,0 +1,11 @@
+[cli](2854) child process 4 is created!
+[cli](2854) server[127.0.0.1:10808] is connected!
+[echo_rep](2854) 4m Aj8 o 
+[echo_rep](2854) oiMYl8v msix6 IV xjKgt78 FaE0 1 dY1w r6iorE0 Xg6 2 
+[echo_rep](2854) dsPtWxtm 
+[echo_rep](2854) rM qXokcCz B8OG6wC 7Um06x7 PyE I5RD6H9 q6dS15 7dG3 
+[echo_rep](2854) DpsK 5TN 6zK1pNDJ cVkN 8F 32oVm07g u3nW 
+[echo_rep](2854) 220j8 y2csU7Lj x uZHCv 9Z
+[echo_rep](2854) 
+[cil](2854) connfd is closed!
+[cli](2854) child process is going to exit!

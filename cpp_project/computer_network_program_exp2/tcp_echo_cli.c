@@ -73,7 +73,7 @@ int echo_rqt(int ClientSocket, int pin, FILE* output_file) {
     printf("begin to enter the loop\n");
     for(;fgets(buf, MAX_CMD_STR, file);) {
         if (strncmp(buf, "exit", 4) == 0) {
-            printf("break the loop");
+            printf("break the loop\n");
             break;
         }
         // write pin
@@ -86,13 +86,13 @@ int echo_rqt(int ClientSocket, int pin, FILE* output_file) {
         // write length
         int n_len = htonl(len);
         write(ClientSocket, &n_len, 4);
-        printf("%d len write\n", len);
+        printf("%d len write %d\n", len, pin);
         // write data.
         char *ptr = buf;
         int left = len;
         for (;;) {
             res = write(ClientSocket, ptr, left);
-            printf("%s data write\n", ptr);
+            printf("%s data write %d\n", ptr, pin);
             if (res == 0 || res == left) break;
             if (res == -1) {
                 return 0;
@@ -101,12 +101,14 @@ int echo_rqt(int ClientSocket, int pin, FILE* output_file) {
             ptr += res;
         }
         // read pin
+        printf("wait to read pin\n");
         res = read(ClientSocket, &pin, 4);
         pin = ntohl(pin);
         if (res < 0) {
             puts("read error! 1");
             return 0;
         }
+        printf("wait to read length\n");
         // read length
         res = read(ClientSocket, &len, 4);
         len = ntohl(len);
@@ -114,6 +116,7 @@ int echo_rqt(int ClientSocket, int pin, FILE* output_file) {
             puts("read error! 2");
             return 0;
         }
+        printf("wait to read data\n");
         // read data
         ptr = buf;
         left = len;

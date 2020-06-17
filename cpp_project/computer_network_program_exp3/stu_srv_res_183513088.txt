@@ -1,5 +1,0 @@
-child process is created!
-[echo_rqt](183513088) heelo
-[echo_rqt](183513088) heelo
-[echo_rqt](183513088) 4m Aj8 o 
-[echo_rqt](183513088) 

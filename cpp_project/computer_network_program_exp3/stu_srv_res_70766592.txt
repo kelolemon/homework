@@ -1,4 +1,0 @@
-child process is created!
-[echo_rqt](70766592) 0
-[echo_rqt](70766592) 1
-[echo_rqt](70766592) 

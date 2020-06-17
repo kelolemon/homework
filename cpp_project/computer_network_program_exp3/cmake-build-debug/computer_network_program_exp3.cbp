@@ -83,9 +83,6 @@
 		<Unit filename="/Users/kelo/kelo/cpp_project/computer_network_program_exp3/main.cpp">
 			<Option target="computer_network_program_exp3"/>
 		</Unit>
-		<Unit filename="/Users/kelo/kelo/cpp_project/computer_network_program_exp3/tcp_echo_cli.c">
-			<Option target="computer_network_program_exp3"/>
-		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp_project/computer_network_program_exp3/tcp_echo_srv.c">
 			<Option target="computer_network_program_exp3"/>
 		</Unit>

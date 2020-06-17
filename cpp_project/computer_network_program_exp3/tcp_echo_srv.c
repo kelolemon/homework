@@ -16,9 +16,9 @@ int sig_to_exit = 0;
 int sig_type = 0;
 
 struct para_info {
-    int* ClientSocket;
-    int* ServerSocket;
-    FILE* input_file;
+    int ClientSocket;
+    int ServerSocket;
+    FILE *input_file;
 };
 
 int echo_rep(int ClientSocket, FILE* output) {
@@ -43,9 +43,9 @@ int echo_rep(int ClientSocket, FILE* output) {
             res = read(ClientSocket, (int *)p_pin, 4 - pin_now);
             pin_now = pin_now + res;
         }
-        printf("read the network %d pin %d len\n", pin, pin_now);
+        printf("(%u) read the network %d pin %d len\n",(unsigned int )pthread_self(), pin, pin_now);
         pin = ntohl(pin);
-        printf("read the %d pin\n", pin);
+        printf("(%u) read the %d pin\n", (unsigned int )pthread_self(), pin);
         if (f_pin == -1) f_pin = pin;
         // read the data len
         char *p_len = (char *)&len;
@@ -65,9 +65,9 @@ int echo_rep(int ClientSocket, FILE* output) {
             len_now = len_now + res;
         }
 
-        printf("read the network %d len %d lens %d pin\n", len, len_now, pin);
+        printf("(%u) read the network %d len %d lens %d pin\n",(unsigned int )pthread_self(),  len, len_now, pin);
         len = ntohl(len);
-        printf("read the %d len %d pin\n", len, pin);
+        printf("(%u) read the %d len %d pin\n", (unsigned int )pthread_self(), len, pin);
         // read data len end
         // begin to read data
         buf = (char *) malloc((len + 1) * sizeof(char ));
@@ -91,13 +91,13 @@ int echo_rep(int ClientSocket, FILE* output) {
             ptr += res;
         }
         // read data end.
-        printf("read the %s data\n", buf);
+        printf("(%u) read the %s data\n", (unsigned int )pthread_self(), buf);
         fprintf(output, "[echo_rqt](%u) %s\n", (unsigned int )pthread_self(), buf);
         fflush(output);
         // write pin
         pin = htonl(pin);
         res = write(ClientSocket, &pin, 4);
-        printf("write the %d pin\n",ntohl(pin));
+        printf("(%u)write the %d pin\n",(unsigned int )pthread_self(), ntohl(pin));
         if (res < 0) {
             puts("write error!");
             return f_pin;
@@ -105,7 +105,7 @@ int echo_rep(int ClientSocket, FILE* output) {
         // write data len
         int n_len = htonl(len);
         res = write(ClientSocket, &n_len, 4);
-        printf("write the %d len\n", len);
+        printf("(%u)write the %d len\n", (unsigned int )pthread_self(), len);
         if (res < 0) {
             puts("write error!");
             return f_pin;
@@ -129,7 +129,7 @@ int echo_rep(int ClientSocket, FILE* output) {
             left -= res;
             ptr += res;
         }
-        printf("write the %s data\n", buf);
+        printf("(%u) write the %s data\n", (unsigned int )pthread_self(), buf);
         free(buf);
     }
 }
@@ -167,14 +167,15 @@ FILE* get_file(int x) {
     fprintf(stdout, "[srv](%u) %s is opened!\n", (unsigned int )pthread_self(), filename);
     return fopen(filename, "w");
 }
-
+int v[10000];
 void *thread_func(void *para) {
     pthread_detach(pthread_self());
     struct para_info paraInfo;
     paraInfo = *(struct para_info*) para;
     FILE *input = paraInfo.input_file;
-    int ClientSocket = *paraInfo.ClientSocket;
-    int ServerSocket = *paraInfo.ServerSocket;
+    int ClientSocket = paraInfo.ClientSocket;
+    int ServerSocket = paraInfo.ServerSocket;
+    printf("%d %d begin to muti thread", ClientSocket, ServerSocket);
     char filename[30];
     sprintf(filename, "stu_srv_res_%u.txt", (unsigned int )pthread_self());
     FILE* child_file = fopen(filename, "w");
@@ -234,6 +235,7 @@ void tcp_server(char *addr, char *port) {
         puts("Listen error!");
         return;
     }
+    pthread_t pthread;
     for (;!sig_to_exit;) {
         int ClientSocket = accept(ServerSocket, (struct sockaddr*) &cli_addr, &addr_size);
         if (ClientSocket == -1 && errno == EINTR) break;
@@ -241,15 +243,12 @@ void tcp_server(char *addr, char *port) {
         inet_ntop(AF_INET, (void *) &cli_addr.sin_addr, ipv4_cli_addr, 16);
         fprintf(input, "[srv](%u) client[%s:%d] is accepted!\n", (unsigned int )pthread_self(), ipv4_cli_addr, ntohs(cli_addr.sin_port));
         fflush(input);
-        struct para_info paraInfo;
-        paraInfo.input_file = input;
-        paraInfo.ClientSocket = &ClientSocket;
-        paraInfo.ServerSocket = &ServerSocket;
-        printf("============%d entering=============\nClientSocket%d\n", step, ClientSocket);
-
-        pthread_create(&p[step++], NULL, thread_func, (void *) &paraInfo);
-        //pthread_join(p[step], NULL);
-        //thread_func((void *)& paraInfo);
+        struct para_info* paraInfo = (struct para_info *) malloc(sizeof(struct para_info));
+        (*paraInfo).input_file = input;
+        (*paraInfo).ClientSocket = ClientSocket;
+        (*paraInfo).ServerSocket = ServerSocket;
+        printf("============%d entering=============\nClientSocket%d : %d\n", step, ClientSocket, (*paraInfo).ClientSocket);
+        pthread_create(&pthread, NULL, thread_func, (void *) paraInfo);
     }
     close(ServerSocket);
     fprintf(input, "[srv](%u) listenfd is closed!\n", (unsigned int )pthread_self());

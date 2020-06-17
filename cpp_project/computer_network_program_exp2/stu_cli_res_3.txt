@@ -1,0 +1,6 @@
+[cli](2853) child process 3 is created!
+[cli](2853) server[127.0.0.1:10808] is connected!
+[echo_rep](2853) 1
+[echo_rep](2853) 
+[cil](2853) connfd is closed!
+[cli](2853) child process is going to exit!

@@ -1,0 +1,6 @@
+[cli](92834) child process 0 is created!
+[cli](92834) server[127.0.0.1:10808] is connected!
+[echo_rep](92834) 1
+[echo_rep](92834) 
+[cil](92834) connfd is closed!
+[cli](92834) parent process is going to exit!

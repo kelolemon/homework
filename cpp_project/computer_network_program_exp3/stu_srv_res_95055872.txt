@@ -1,0 +1,3 @@
+child process is created!
+[echo_rqt](95055872) 4m Aj8 o 
+[echo_rqt](95055872) 

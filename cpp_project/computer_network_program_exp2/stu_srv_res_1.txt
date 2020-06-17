@@ -1,0 +1,5 @@
+child process is created!
+[srv](83334) listenfd is closed!
+[srv](83334) res file rename done!
+[srv](83334) connfd is closed!
+[srv](83334) child process is going to exit!

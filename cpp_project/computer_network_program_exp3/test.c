@@ -29,16 +29,6 @@ void sig_pipe(int signal) {
     sleep(10000);
 }
 
-void sig_child(int signal) {
-    sig_type = signal;
-    pid_t child_pid;
-    printf("[srv](%d) SIGCHLD is coming!\n", getpid());
-    int state;
-    while ((child_pid = waitpid(-1, &state, WNOHANG)) > 0) {
-        printf("[srv](%d) server child(%d) terminated.\n", getpid(), child_pid);
-    }
-}
-
 void signal_init() {
     // install pipe
     struct sigaction sig_act_pipe, old_sig_act_pipe;
@@ -52,12 +42,6 @@ void signal_init() {
     sigemptyset(&sig_act_int.sa_mask);
     sig_act_int.sa_flags = 0;
     sigaction(SIGINT, &sig_act_int, &old_sig_act_int);
-    // install child
-    struct sigaction sig_act_child, old_sig_act_child;
-    sig_act_child.sa_handler = sig_child;
-    sigemptyset(&sig_act_child.sa_mask);
-    sig_act_child.sa_flags = SA_RESTART;
-    sigaction(SIGCHLD, &sig_act_child, &old_sig_act_child);
 }
 
 FILE* read_file_pin(int pin) {
@@ -165,7 +149,9 @@ void tcp_client(char *addr, char *port, int pin) {
         }
         fprintf(file, "[cli](%d) server[%s:%s] is connected!\n", getpid(), addr, port);
         fflush(file);
+        printf("begin to write\n");
         res = echo_rqt(ClientSocket, pin, file);
+        printf("end to write\n");
         if (res == 0) break;
     }
     fprintf(file, "[cil](%d) connfd is closed!\n", getpid());
@@ -190,26 +176,6 @@ int main(int argc, char *argv[]) {
         return 0;
     }
     signal_init();
-    char *ret;
-    int pin;
-    pid_t pid;
-    int tot_process = (int )strtol(argv[3], &ret, 10);
-    for (pin = 1; pin < tot_process; pin++) {
-        pid = fork();
-        if (pid == -1) {
-            puts("Create process error!");
-            return 0;
-        }
-        if (pid == 0) { // child process
-            break;
-        }
-    }
-    if (pin < tot_process) {
-        tcp_client(argv[1], argv[2], pin);
-    }
-    if (pin == tot_process) {
-        pin = 0;
-        tcp_client(argv[1], argv[2], pin);
-    }
+    tcp_client(argv[1], argv[2], 0);
     return 0;
 }

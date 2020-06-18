@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/computer_network_program_exp3.dir/build.make CMakeFiles/computer_network_program_exp3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tcp_echo_cli.o: tcp_echo_cli.c.o
+
+.PHONY : tcp_echo_cli.o
+
+# target to build an object file
+tcp_echo_cli.c.o:
+	$(MAKE) -f CMakeFiles/computer_network_program_exp3.dir/build.make CMakeFiles/computer_network_program_exp3.dir/tcp_echo_cli.c.o
+.PHONY : tcp_echo_cli.c.o
+
+tcp_echo_cli.i: tcp_echo_cli.c.i
+
+.PHONY : tcp_echo_cli.i
+
+# target to preprocess a source file
+tcp_echo_cli.c.i:
+	$(MAKE) -f CMakeFiles/computer_network_program_exp3.dir/build.make CMakeFiles/computer_network_program_exp3.dir/tcp_echo_cli.c.i
+.PHONY : tcp_echo_cli.c.i
+
+tcp_echo_cli.s: tcp_echo_cli.c.s
+
+.PHONY : tcp_echo_cli.s
+
+# target to generate assembly for a file
+tcp_echo_cli.c.s:
+	$(MAKE) -f CMakeFiles/computer_network_program_exp3.dir/build.make CMakeFiles/computer_network_program_exp3.dir/tcp_echo_cli.c.s
+.PHONY : tcp_echo_cli.c.s
+
 tcp_echo_srv.o: tcp_echo_srv.c.o
 
 .PHONY : tcp_echo_srv.o
@@ -216,6 +243,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tcp_echo_cli.o"
+	@echo "... tcp_echo_cli.i"
+	@echo "... tcp_echo_cli.s"
 	@echo "... tcp_echo_srv.o"
 	@echo "... tcp_echo_srv.i"
 	@echo "... tcp_echo_srv.s"

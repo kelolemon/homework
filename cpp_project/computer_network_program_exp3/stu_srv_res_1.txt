@@ -1,0 +1,7 @@
+child process is created!
+[echo_rqt](213557248) a
+[echo_rqt](213557248) c
+[echo_rqt](213557248) 
+[srv](213557248) res file rename done!
+[srv](213557248) connfd is closed!
+[srv](213557248) child process is going to exit!

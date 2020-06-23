@@ -32,7 +32,7 @@ biomeBlendRadius:2
 renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:beta.uestc.dev
 lang:zh_cn
 chatVisibility:0
 chatOpacity:1.0

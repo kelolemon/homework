@@ -123,6 +123,33 @@ leetcode/fast:
 	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
+312.o: 312.cpp.o
+
+.PHONY : 312.o
+
+# target to build an object file
+312.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/312.cpp.o
+.PHONY : 312.cpp.o
+
+312.i: 312.cpp.i
+
+.PHONY : 312.i
+
+# target to preprocess a source file
+312.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/312.cpp.i
+.PHONY : 312.cpp.i
+
+312.s: 312.cpp.s
+
+.PHONY : 312.s
+
+# target to generate assembly for a file
+312.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/312.cpp.s
+.PHONY : 312.cpp.s
+
 830.o: 830.cpp.o
 
 .PHONY : 830.o
@@ -402,6 +429,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode"
+	@echo "... 312.o"
+	@echo "... 312.i"
+	@echo "... 312.s"
 	@echo "... 830.o"
 	@echo "... 830.i"
 	@echo "... 830.s"

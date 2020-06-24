@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/kelo/kelo/cpp_project/leetcode/312.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/312.cpp.o"
   "/Users/kelo/kelo/cpp_project/leetcode/830.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/830.cpp.o"
+  "/Users/kelo/kelo/cpp_project/leetcode/lt1143.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/lt1143.cpp.o"
   "/Users/kelo/kelo/cpp_project/leetcode/lt123.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/lt123.cpp.o"
   "/Users/kelo/kelo/cpp_project/leetcode/lt124.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/lt124.cpp.o"
   "/Users/kelo/kelo/cpp_project/leetcode/lt125.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/lt125.cpp.o"

@@ -19,21 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50ee03ea-9f4b-4fb0-ad7a-d473c71802af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../go_project/sendmail/html.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sendmail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go_project/sendmail/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../go_project/sendmail/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go_project/sendmail/email.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../go_project/sendmail/email.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go_project/sendmail/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../go_project/sendmail/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50ee03ea-9f4b-4fb0-ad7a-d473c71802af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +97,7 @@
       <workItem from="1580976726808" duration="25430000" />
       <workItem from="1581318479285" duration="27163000" />
       <workItem from="1591939731378" duration="4773000" />
+      <workItem from="1592980193692" duration="6000" />
     </task>
     <servers />
   </component>
@@ -127,6 +114,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

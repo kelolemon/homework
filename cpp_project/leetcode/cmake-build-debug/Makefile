@@ -177,6 +177,33 @@ leetcode/fast:
 	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/830.cpp.s
 .PHONY : 830.cpp.s
 
+lt1143.o: lt1143.cpp.o
+
+.PHONY : lt1143.o
+
+# target to build an object file
+lt1143.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt1143.cpp.o
+.PHONY : lt1143.cpp.o
+
+lt1143.i: lt1143.cpp.i
+
+.PHONY : lt1143.i
+
+# target to preprocess a source file
+lt1143.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt1143.cpp.i
+.PHONY : lt1143.cpp.i
+
+lt1143.s: lt1143.cpp.s
+
+.PHONY : lt1143.s
+
+# target to generate assembly for a file
+lt1143.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt1143.cpp.s
+.PHONY : lt1143.cpp.s
+
 lt123.o: lt123.cpp.o
 
 .PHONY : lt123.o
@@ -435,6 +462,9 @@ help:
 	@echo "... 830.o"
 	@echo "... 830.i"
 	@echo "... 830.s"
+	@echo "... lt1143.o"
+	@echo "... lt1143.i"
+	@echo "... lt1143.s"
 	@echo "... lt123.o"
 	@echo "... lt123.i"
 	@echo "... lt123.s"

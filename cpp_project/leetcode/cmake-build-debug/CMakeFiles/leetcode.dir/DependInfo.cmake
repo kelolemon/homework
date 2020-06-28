@@ -14,6 +14,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/kelo/kelo/cpp_project/leetcode/lt129.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/lt129.cpp.o"
   "/Users/kelo/kelo/cpp_project/leetcode/lt136.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/lt136.cpp.o"
   "/Users/kelo/kelo/cpp_project/leetcode/lt150.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/lt150.cpp.o"
+  "/Users/kelo/kelo/cpp_project/leetcode/lt516.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/lt516.cpp.o"
+  "/Users/kelo/kelo/cpp_project/leetcode/lt877.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/lt877.cpp.o"
   "/Users/kelo/kelo/cpp_project/leetcode/lt887.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/lt887.cpp.o"
   "/Users/kelo/kelo/cpp_project/leetcode/main.cpp" "/Users/kelo/kelo/cpp_project/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/main.cpp.o"
   )

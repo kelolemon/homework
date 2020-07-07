@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a7c8af3-6208-4bbe-92f0-683cfd614d19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/front-gatsby/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-gatsby/package-lock.json" afterDir="false" />
-    </list>
+    <list default="true" id="2a7c8af3-6208-4bbe-92f0-683cfd614d19" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

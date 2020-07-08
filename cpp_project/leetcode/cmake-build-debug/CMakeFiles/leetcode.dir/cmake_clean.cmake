@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/leetcode.dir/312.cpp.o"
   "CMakeFiles/leetcode.dir/830.cpp.o"
+  "CMakeFiles/leetcode.dir/lt1041.cpp.o"
   "CMakeFiles/leetcode.dir/lt1143.cpp.o"
   "CMakeFiles/leetcode.dir/lt123.cpp.o"
   "CMakeFiles/leetcode.dir/lt124.cpp.o"
@@ -10,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/leetcode.dir/lt136.cpp.o"
   "CMakeFiles/leetcode.dir/lt150.cpp.o"
   "CMakeFiles/leetcode.dir/lt516.cpp.o"
+  "CMakeFiles/leetcode.dir/lt669.cpp.o"
   "CMakeFiles/leetcode.dir/lt877.cpp.o"
   "CMakeFiles/leetcode.dir/lt887.cpp.o"
   "CMakeFiles/leetcode.dir/main.cpp.o"

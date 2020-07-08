@@ -177,6 +177,33 @@ leetcode/fast:
 	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/830.cpp.s
 .PHONY : 830.cpp.s
 
+lt1041.o: lt1041.cpp.o
+
+.PHONY : lt1041.o
+
+# target to build an object file
+lt1041.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt1041.cpp.o
+.PHONY : lt1041.cpp.o
+
+lt1041.i: lt1041.cpp.i
+
+.PHONY : lt1041.i
+
+# target to preprocess a source file
+lt1041.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt1041.cpp.i
+.PHONY : lt1041.cpp.i
+
+lt1041.s: lt1041.cpp.s
+
+.PHONY : lt1041.s
+
+# target to generate assembly for a file
+lt1041.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt1041.cpp.s
+.PHONY : lt1041.cpp.s
+
 lt1143.o: lt1143.cpp.o
 
 .PHONY : lt1143.o
@@ -420,6 +447,33 @@ lt516.cpp.s:
 	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt516.cpp.s
 .PHONY : lt516.cpp.s
 
+lt669.o: lt669.cpp.o
+
+.PHONY : lt669.o
+
+# target to build an object file
+lt669.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt669.cpp.o
+.PHONY : lt669.cpp.o
+
+lt669.i: lt669.cpp.i
+
+.PHONY : lt669.i
+
+# target to preprocess a source file
+lt669.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt669.cpp.i
+.PHONY : lt669.cpp.i
+
+lt669.s: lt669.cpp.s
+
+.PHONY : lt669.s
+
+# target to generate assembly for a file
+lt669.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt669.cpp.s
+.PHONY : lt669.cpp.s
+
 lt877.o: lt877.cpp.o
 
 .PHONY : lt877.o
@@ -516,6 +570,9 @@ help:
 	@echo "... 830.o"
 	@echo "... 830.i"
 	@echo "... 830.s"
+	@echo "... lt1041.o"
+	@echo "... lt1041.i"
+	@echo "... lt1041.s"
 	@echo "... lt1143.o"
 	@echo "... lt1143.i"
 	@echo "... lt1143.s"
@@ -543,6 +600,9 @@ help:
 	@echo "... lt516.o"
 	@echo "... lt516.i"
 	@echo "... lt516.s"
+	@echo "... lt669.o"
+	@echo "... lt669.i"
+	@echo "... lt669.s"
 	@echo "... lt877.o"
 	@echo "... lt877.i"
 	@echo "... lt877.s"

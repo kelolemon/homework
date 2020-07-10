@@ -113,10 +113,16 @@
 		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt150.cpp">
 			<Option target="leetcode"/>
 		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt494.cpp">
+			<Option target="leetcode"/>
+		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt516.cpp">
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt669.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt738.cpp">
 			<Option target="leetcode"/>
 		</Unit>
 		<Unit filename="/Users/kelo/kelo/cpp_project/leetcode/lt877.cpp">

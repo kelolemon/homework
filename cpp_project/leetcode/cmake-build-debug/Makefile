@@ -420,6 +420,60 @@ lt150.cpp.s:
 	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt150.cpp.s
 .PHONY : lt150.cpp.s
 
+lt273.o: lt273.cpp.o
+
+.PHONY : lt273.o
+
+# target to build an object file
+lt273.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt273.cpp.o
+.PHONY : lt273.cpp.o
+
+lt273.i: lt273.cpp.i
+
+.PHONY : lt273.i
+
+# target to preprocess a source file
+lt273.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt273.cpp.i
+.PHONY : lt273.cpp.i
+
+lt273.s: lt273.cpp.s
+
+.PHONY : lt273.s
+
+# target to generate assembly for a file
+lt273.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt273.cpp.s
+.PHONY : lt273.cpp.s
+
+lt461.o: lt461.cpp.o
+
+.PHONY : lt461.o
+
+# target to build an object file
+lt461.cpp.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt461.cpp.o
+.PHONY : lt461.cpp.o
+
+lt461.i: lt461.cpp.i
+
+.PHONY : lt461.i
+
+# target to preprocess a source file
+lt461.cpp.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt461.cpp.i
+.PHONY : lt461.cpp.i
+
+lt461.s: lt461.cpp.s
+
+.PHONY : lt461.s
+
+# target to generate assembly for a file
+lt461.cpp.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/lt461.cpp.s
+.PHONY : lt461.cpp.s
+
 lt494.o: lt494.cpp.o
 
 .PHONY : lt494.o
@@ -651,6 +705,12 @@ help:
 	@echo "... lt150.o"
 	@echo "... lt150.i"
 	@echo "... lt150.s"
+	@echo "... lt273.o"
+	@echo "... lt273.i"
+	@echo "... lt273.s"
+	@echo "... lt461.o"
+	@echo "... lt461.i"
+	@echo "... lt461.s"
 	@echo "... lt494.o"
 	@echo "... lt494.i"
 	@echo "... lt494.s"

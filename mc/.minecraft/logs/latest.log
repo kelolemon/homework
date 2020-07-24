@@ -1,42 +1,21 @@
-[18:04:14] [Render thread/INFO]: Backend library: LWJGL version 3.2.1 build 12
-[18:04:16] [Render thread/INFO]: Reloading ResourceManager: Default
-[18:04:19] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[18:04:21] [Render thread/INFO]: OpenAL initialized.
-[18:04:21] [Render thread/INFO]: Sound engine started
-[18:04:21] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[18:04:21] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[18:04:21] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[18:04:21] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[18:04:21] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[18:04:21] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[18:04:21] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[18:04:22] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[18:04:22] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[18:04:22] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[18:04:52] [Render thread/WARN]: Unable to start LAN server detection: Can't assign requested address
-[18:05:17] [Render thread/INFO]: Connecting to beta.uestc.dev, 25565
-[18:05:17] [Server Connector #1/ERROR]: Couldn't connect to server
-java.net.UnknownHostException: beta.uestc.dev: nodename nor servname provided, or not known
-	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_251]
-	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0_251]
-	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0_251]
-	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0_251]
-	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_251]
-	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_251]
-	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[?:1.8.0_251]
-	at dfd$1.run(SourceFile:65) [1.15.2.jar:?]
-[18:05:28] [MCO Compatability Checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[18:05:28] [MCO Compatability Checker #1/ERROR]: Couldn't connect to realms: 
-[18:05:34] [Render thread/WARN]: Unable to start LAN server detection: Can't assign requested address
-[18:06:00] [Render thread/INFO]: Connecting to beta.uestc.dev, 25565
-[18:06:00] [Server Connector #2/ERROR]: Couldn't connect to server
-java.net.UnknownHostException: beta.uestc.dev
-	at java.net.InetAddress.getAllByName0(InetAddress.java:1281) ~[?:1.8.0_251]
-	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0_251]
-	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0_251]
-	at java.net.InetAddress.getByName(InetAddress.java:1077) ~[?:1.8.0_251]
-	at dfd$1.run(SourceFile:65) [1.15.2.jar:?]
-[18:06:10] [Render thread/INFO]: Connecting to uestc.dev, 25565
-[18:06:15] [Render thread/WARN]: Unable to start LAN server detection: Can't assign requested address
-[18:06:50] [Render thread/WARN]: Unable to start LAN server detection: Can't assign requested address
-[18:06:52] [Render thread/INFO]: Stopping!
+[22:53:02] [Render thread/INFO]: Setting user: CetacisKelo
+[22:53:05] [Render thread/INFO]: Backend library: LWJGL version 3.2.1 build 12
+[22:53:10] [Render thread/INFO]: Reloading ResourceManager: Default
+[22:53:12] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[22:53:14] [Render thread/INFO]: OpenAL initialized.
+[22:53:14] [Render thread/INFO]: Sound engine started
+[22:53:14] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[22:53:14] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[22:53:14] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22:53:14] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22:53:14] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22:53:14] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22:53:14] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22:53:14] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[22:53:14] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22:53:14] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22:53:18] [Render thread/WARN]: Unable to start LAN server detection: Can't assign requested address
+[22:53:19] [Render thread/INFO]: Connecting to ip.alis.cetacis.dev, 25565
+[22:53:21] [Render thread/INFO]: Loaded 164 advancements
+[22:55:50] [Render thread/INFO]: [CHAT] 已将unalian传送至CetacisKelo
+[23:01:59] [Render thread/INFO]: Stopping!
